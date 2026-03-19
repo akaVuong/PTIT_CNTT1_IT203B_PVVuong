@@ -46,7 +46,7 @@ class Fan {
     }
 }
 
-class AirConditioner {
+class `AirConditioner {
     public void off() {
         System.out.println("Điều hòa: Tắt");
     }
