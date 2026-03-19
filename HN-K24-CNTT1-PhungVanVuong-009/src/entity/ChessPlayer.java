@@ -58,16 +58,16 @@ public class ChessPlayer implements IChessPlayer {
     @Override
     public void inputData(Scanner scanner){
         Scanner sc = new Scanner(System.in);
-        System.out.println("nhập Id: ");
+        System.out.print("nhập Id: ");
         this.playerId = scanner.nextLine();
 
-        System.out.println("nhập tên: ");
+        System.out.print("nhập tên: ");
         this.playerName = scanner.nextLine();
 
-        System.out.println("nhập trình độ: ");
+        System.out.print("nhập trình độ: ");
         this.elo = Integer.parseInt(scanner.nextLine());
 
-        System.out.println(" nhập tuổi: ");
+        System.out.print(" nhập tuổi: ");
         this.age = Integer.parseInt(scanner.nextLine());
         if(age <18){
             System.out.println("tuổi không hợp lệ");
